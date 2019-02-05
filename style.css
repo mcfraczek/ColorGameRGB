@@ -1,0 +1,98 @@
+body {
+  font-family: 'Gaegu', cursive;
+  text-transform: uppercase;
+  background-color: #232323;
+  margin: 0;
+
+}
+
+.square {
+  width: 30%;
+  background-color: purple;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 30%;
+  transition: background-color 0.7s;
+  -webkit-transition: background-color 0.7s;
+  -moz-transition: background-color 0.7s;
+}
+
+#container {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 600px;
+}
+
+h1 {
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  text-align: center;
+  color: white;
+  background-color: steelblue;
+  margin: 0;
+  font-size: 50px;
+  font-weight: 400;
+  padding: 20px 0;
+  line-height: 1.1;
+}
+
+#underHead {
+  background-color: white;
+  text-align: center;
+}
+
+#message {
+  text-align: center;
+  color: steelblue;
+  display: inline-block;
+  width: 20%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.selected {
+  color: white;
+  background-color: steelblue;
+}
+
+#colorDisplay {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+button {
+  font-family: 'Gaegu', cursive;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1px;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  color: steelblue;
+  margin: 0;
+  transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+}
+
+button:hover {
+  color: white;
+  background-color: steelblue;
+}
+
+#reset {
+  width: 11%;
+}
+
+.steelblue {
+  background-color: steelblue;
+  transition: all 3s;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+}
